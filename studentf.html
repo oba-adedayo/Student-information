@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="studentf.css">
+</head>
+<body>
+  <div id="box1">
+        <h1>STUDENTS FORM</h1>
+        <div id="eorr"></div>
+     <input onmouseover="cl()" id="in1" type="text" placeholder="Name"><br>
+     <input onmouseover="cl()" id="in2" type="text" placeholder="Depratment"><br>
+     <input onmouseover="cl()" id="in3" type="text" placeholder="School"><br>
+     <input onmouseover="cl()" type="file" name="" id="in4"><br>
+     <button id="add" onclick="add()">Add Student</button>
+     <button id="disp" onclick="dis()">Display</button>
+     <!-- <div id="res"></div> -->
+
+  </div>
+  <div id="box2">
+    <table >
+        <tr>
+            <th>No</th>
+            <th>NAME</th>
+            <th>DEPRATMENT</th>
+            <th>SCHOOL</th>
+            <th>IMEGSE</th>
+        </tr>
+        <tr>
+            <td id="res1"></td>
+            <td id="res2"></td>
+            <td id="res3"></td>
+            <td id="res4"></td>
+            <td id="res5"></td>
+        </tr>
+    </table>
+    <button id="back" onclick="back()">Back</button>
+  </div>
+ 
+    <script src="studentf.js"></script>
+</body>
+</html>
